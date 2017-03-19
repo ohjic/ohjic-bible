@@ -103,7 +103,8 @@ body {
 .l-header {
   position: relative;
   padding: 30px 0;
-  background: #0099cc;
+  background: #000000;
+  color: #ffffff;
 }
 
 .l-brand {
@@ -255,44 +256,10 @@ body {
 }
 
 .l-sidebar {
-  position: absolute;
-  top: 0px;
-  right: 20px;
-  bottom: 0px;
-  width: 280px;
-  border: none;
+  float:left;
 }
 
-.l-sidebar .l-row {
-  position: relative;
-  text-align: center;
-}
 
-.l-sidebar .l-col {
-  display: inline-block;
-  padding: 10px;
-}
-
-.l-sidebar .l-col img {
-  width: 100%;
-}
-
-.l-sidebar .l-col p {
-  color: #bbb;
-  margin: 0;
-  padding: .2em;
-  font-style: normal;
-  font-size: 11px;
-  text-align: left;
-}
-
-.l-sidebar .l-col.l-col-1 {
-  width: 100%;
-}
-
-.l-sidebar .l-col.l-col-4 {
-  width: 50%;
-}
 
 .l-main-container {
   position: relative;
