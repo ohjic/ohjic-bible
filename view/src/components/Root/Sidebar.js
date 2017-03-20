@@ -10,7 +10,7 @@ export default class SiderBar extends Component {
 
     render() {
         return (
-            <div className="l-sidebar">
+            <div className="menu-item">
                 {this.props.name}
             </div>
         )

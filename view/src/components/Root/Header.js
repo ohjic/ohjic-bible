@@ -3,7 +3,7 @@ import {Glyphicon} from 'react-bootstrap';
 import { Link } from 'react-router';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import SiderBar from '../Header/Sidebar';
+import SiderBar from './Sidebar';
 
 export default class Header extends Component {
 
@@ -11,13 +11,13 @@ export default class Header extends Component {
 	render() {
 		return (
 			<div className="l-header">
-				<div>
+				<div className="l-logo">
 					성경제목
 				</div>
-				<div>
-					<SiderBar name="11">11</SiderBar>
-					<SiderBar name="22">12</SiderBar>
-					<SiderBar name="33">13</SiderBar>
+				<div className="menu">
+					<SiderBar name="menu1"></SiderBar>
+					<SiderBar name="menu2"></SiderBar>
+					<SiderBar name="menu3"></SiderBar>
 				</div>
 			</div>
 		)
