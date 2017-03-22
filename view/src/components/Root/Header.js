@@ -15,9 +15,10 @@ export default class Header extends Component {
 					성경제목
 				</div>
 				<div className="menu">
-					<SiderBar name="menu1"></SiderBar>
-					<SiderBar name="menu2"></SiderBar>
-					<SiderBar name="menu3"></SiderBar>
+					<SiderBar iconName="icon-left-open"></SiderBar>
+					<SiderBar iconName="icon-right-open"></SiderBar>
+					<SiderBar iconName="icon-star-filled"></SiderBar>
+					<SiderBar iconName="icon-th-list"></SiderBar>
 				</div>
 			</div>
 		)

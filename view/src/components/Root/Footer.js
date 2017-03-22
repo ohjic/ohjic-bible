@@ -12,10 +12,9 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <div className="menu">
-                <SiderBar name="menu4"></SiderBar>
-                <SiderBar name="menu5"></SiderBar>
-                <SiderBar name="menu6"></SiderBar>
+            <div className="menu l-footer">
+                <SiderBar name="성경"></SiderBar>
+                <SiderBar name="설정"></SiderBar>
             </div>
         )
     }

@@ -11,7 +11,7 @@ export default class SiderBar extends Component {
     render() {
         return (
             <div className="menu-item">
-                {this.props.name}
+                <i className={this.props.iconName}></i>
             </div>
         )
     }
